@@ -1,10 +1,12 @@
+
+
 def read_input(filename):
     with open(filename, 'r') as fd:
         parsed = list(fd.read())
     return parsed
 
 def main():
-    depths = read_input('input')
+    depths = read_input('input.txt')
     print (depths)
 
 
