@@ -1,0 +1,8 @@
+### Add two tuples to a list [(1, 'A'), (2, 'B')] ###
+tup1 = (1,2,3,4,5,6)
+tup2 = ("uno", "dos", "tres", "quatro", "cinko", "seis" )
+
+lista = []
+lista += tup3, tup4
+
+print(lista, type(lista))
